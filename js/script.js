@@ -58,7 +58,47 @@
 // const heart1=document.querySelector('.heart');
 // console.log(heart1);
 
+  // arr.map((item) => {
+  //   console.log(item + ' from map')
+  // });
 
 
-const sher = document.getElementById('box');
+//   const arr = [1, 2, 3];
 
+// const myMap = (arr, func) => {
+//     const localArr = [];
+//     for(let i = 0; i < arr.length; i++) {
+//       const res = func(arr[i]);
+//       localArr[i] = res;
+//     }
+//     return localArr;
+//   };
+
+ 
+
+//   const res = myMap(arr, (item) => {
+//     // console.log(item + ' from my function');
+//     return 'I\'m ' + item;
+//   });
+//   console.log(res);
+
+
+
+
+
+
+
+const items = ['item1', 'item2', 'item3'];
+const copy = [];
+
+
+items.forEach(function(item){
+    for(let i=0;i<items.length;i++){
+        const res =items[i];
+        copy[i]=res;
+        
+    }
+    console.log(item + "sher");
+});
+
+console.log(copy); 
