@@ -88,17 +88,4 @@
 
 
 
-const items = ['item1', 'item2', 'item3'];
-const copy = [];
 
-
-items.forEach(function(item){
-    for(let i=0;i<items.length;i++){
-        const res =items[i];
-        copy[i]=res;
-        
-    }
-    console.log(item + "sher");
-});
-
-console.log(copy); 
