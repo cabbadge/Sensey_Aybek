@@ -151,12 +151,14 @@
 // heart1[0].after(div);
 
 
+
+
 // wrapper.insertBefore(div, heart1[0]);
 
 // circle[0].remove();
 // wrapper.removeChild(heart1[1]);
 
-// heart1[0].replaceWith(circle[0]);
+// heart1[0].replaceWith(circle[0]); а
 // wrapper.replaceChild(circle[0], heart1[0]);
 
 // div.innerHTML = '<h1>Hello world</h1>';
@@ -181,4 +183,47 @@
 //   }
 // });
 // console.log(localArr);
+
+
+
+
+
+// const res = arr.map(item=>{
+//   for(let i=0;i<arr.length;i++){
+//     const res=(item+arr[i]);
+//     console.log(res);
+
+//   }
+// });
+
+
+
+
+// function res(item){
+//   let sum=0;
+//   for(let i=0;i<arr.length; i++){
+//     sum += item[i];
+//   }
+//   console.log(sum);
+// }
+// res(arr);
+
+
+// const arr=[34, 54,87];
+
+// let sum=0;
+// arr.forEach(item =>{
+//     sum+=item;
+// });
+// console.log(sum);
+
+
+
+// var drawCats = function (howManyTimes) {
+//   for (var i = 0; i < howManyTimes; i++) {
+//   console.log(i +1 + " =^.^=");
+//   }
+//  };
+//  drawCats(10);
+
 
